@@ -18,7 +18,7 @@ const routes=createBrowserRouter([
     {path:"/blog", element:<Blog/>},
     {path:"/about", element:<About/>},
     {path:"/blog/:slug",element:<BlogDetails/> },
-    { path: "*", element: <NotFound/> },
+    { path: "*", element: <NotFound /> },
     ],
     },
 ])
